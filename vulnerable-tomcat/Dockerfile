@@ -1,4 +1,4 @@
-FROM tomcat:9.0.60-jre11-openjdk-slim-buster
+FROM tomcat:9-jre11-openjdk-slim-buster
 
 ADD spring-form.war /usr/local/tomcat/webapps/
 
